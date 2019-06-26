@@ -35,7 +35,7 @@ To achieve the above system, the following equipments are needed for a complete 
 * 2 Red LEDs
 * 2 Yellow LEDs
 * Resistors (220 Ω)
-* Wires\
+* Wires
 <br>
 Also, the folllowing figures shows a step by step transition of the traffic light system:
 <br>
