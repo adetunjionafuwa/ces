@@ -10,12 +10,21 @@ int green2 = 11;
 
 void setup() {
   // put your setup code here, to run once:
+  
+  //Light one
+  pinMode(red1, OUTPUT);
+  pinMode(yellow1, OUTPUT);
+  pinMode(green1, OUTPUT);
 
+  //Light two
+  pinMode(red2, OUTPUT);
+  pinMode(yellow2, OUTPUT);
+  pinMode(green2, OUTPUT);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
-
+  changeLights();
 }
 
 void changeLights(){
