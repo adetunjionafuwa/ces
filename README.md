@@ -38,7 +38,7 @@ To achieve the above system, the following equipments are needed for a complete 
 * Wires
 <br>
 Also, the folllowing figures shows a step by step transition of the traffic light system:
-![Model 1](./img/model1.png)
+![Model 1](./img/model.png)
 ![Model 2](./img/model2.png)
 ![Model 3](./img/model3.png)
 <br>
