@@ -23,10 +23,10 @@ The signal design procedure involves some major steps. Which includes<br>
 
 ## 4.   Requirements and design
 The folllowing figures shows a step by step transition of the traffic light system
-![Model 1](./img/model1.png)<br><br>
-![Model 2](./img/model2.png)<br><br>
-![Model 3](./img/model3.png)<br><br>
-![Model 4](./img/model4.png)<br><br>
+![Model 1](./img/model1.png)<br><hr><br>
+![Model 2](./img/model2.png)<br><hr><br>
+![Model 3](./img/model3.png)<br><hr><br>
+![Model 4](./img/model4.png)<br><hr><br>
 ![Model 5](./img/model5.png)<br>
 
 ### System design
