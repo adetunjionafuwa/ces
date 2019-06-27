@@ -28,37 +28,35 @@ void loop() {
 }
 
 void changeLights(){
-
-  // turn both yellow lights on
-  digitalWrite(red2, LOW);
+  digitalWrite(red1, LOW);
+  digitalWrite(yellow1, LOW);
+  digitalWrite(green2, LOW);
+  digitalWrite(red2, HIGH);
+  digitalWrite(green1, HIGH);
+  delay(5000);
+  
+  
   digitalWrite(green1, LOW);
   digitalWrite(yellow1, HIGH);
+  delay(3000);
+  digitalWrite(yellow1, LOW);
+  digitalWrite(red1, HIGH);
+  delay(3000);
+  
   digitalWrite(yellow2, HIGH);
   delay(3000);
-
-  //turn both yellow off and opposte green and red
-  digitalWrite(yellow1, LOW);
   digitalWrite(red2, LOW);
   digitalWrite(yellow2, LOW);
-  digitalWrite(red1, HIGH);
-  delay(5000);
   digitalWrite(green2, HIGH);
-  delay(10000);
-
-  // turn both yellow on again
-  digitalWrite(red1, LOW);
-  digitalWrite(yellow1, HIGH);
-  digitalWrite(yellow2, HIGH);
+  delay(5000);
+  
   digitalWrite(green2, LOW);
+  digitalWrite(yellow2, HIGH);
   delay(3000);
-
-  //turn both yellow off and opposite green and red
-  digitalWrite(yellow1, LOW);
-  digitalWrite(red1, LOW);
   digitalWrite(yellow2, LOW);
   digitalWrite(red2, HIGH);
-  delay(5000);
-  digitalWrite(green1, HIGH);
-  delay(10000);
+  delay(3000);
+  digitalWrite(yellow1, HIGH);
+  delay(3000);
 }
 
